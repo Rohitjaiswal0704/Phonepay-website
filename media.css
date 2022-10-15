@@ -1,0 +1,331 @@
+@media (min-width: 360px) and (max-width: 660px) {
+    
+    .nav1>.side-menu{
+      margin: 0 0vmax 0 37vmax;
+        
+    }
+    .nav1>.logo{
+        width: 30vmax;
+        cursor: pointer;
+    }   
+    
+    .nav1>ul{
+       display: none;
+    } 
+    /* --------------------------- */
+    .nav>.side-menu{
+        display: flex;
+        border: 0.2vmax solid black;
+
+    }
+    .menu{
+        width: 5.5vmax;
+        height: 0.6vmax;
+        background-color: #5E2FB2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.2vmax;
+       
+    }
+    .menu1{
+        transform-origin: left;
+        transform: rotate(43deg);
+    }
+    .menu2{
+        width: 0;
+    }
+    .menu3{
+        transform-origin: left;
+        transform: rotate(-42deg);
+    }
+    /* ---------------------------- */
+    .container>.page1-image{
+        width: 160%;
+        height: 40vh;
+    }
+    .circle{
+        margin-left: 28vmax;
+    }
+    
+    .box{
+        flex-direction: column;
+        margin: 3vmax 15vmax;
+        gap: 4vmax;
+    }
+    .box>.box1{
+        width: 150%;
+    }
+    .box>.box1>.box1-containt{
+        width: 50%;
+    }
+    .box>.box1>.box1-containt>.contain1>h1{
+        margin-top: 4vmax;
+
+    }
+    .box>.box1>.box1-containt>.contain1>p{
+        font-size: 3.2vmax;
+        line-height: 3.5vmax;
+        margin-top: 2vmax;
+    }
+    .box>.box1>.box1-containt>.contain1>h2{
+        font-size: 10vmax;
+        margin: 2vmax 0 0 0.5vmax;
+        font-weight: 100;
+    }
+    .box>.box1>.box1-image>a>i{
+        font-size: 20vmax;
+    }
+
+
+
+
+    .box>.box2{
+        width: 150%; 
+    }
+    .box>.box2>.box2-containt{
+        width: 55%;
+    }
+    .box>.box2>.box2-containt>.contain2>h1{
+        margin-top: 1vmax;
+
+    }
+    .box>.box2>.box2-containt>.contain2>p{
+        font-size: 3.2vmax;
+        line-height: 3.5vmax;
+        margin-top: 1.5vmax;
+    }
+    .box>.box2>.box2-containt>.contain2>h2{
+        font-size: 10vmax;
+        margin: 1.5vmax 0 0 0.5vmax;
+        font-weight: 100;
+    }
+    .box>.box2>.box2-image>a>i{
+        font-size: 18vmax;
+    }
+
+/* ----------------------------.container3---------------- */
+
+    .container3{
+        width: 160%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 7.5vmax;
+        
+    }
+    .container3>.contain-all{
+        margin-top: 2vmax;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container3>.containall-image{
+       width: 90%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 1vmax 3vmax;
+    }
+    .on-tension{
+        width: 160%;
+        
+    }
+    /* ---------------------------------------------------------------------- */
+    .all-video{
+        width: 130%;
+    }
+    .all-video>.video-box{
+      width: 120%;
+      margin-right: 4vmax;
+      
+    }
+    .video-box>.video-all1{
+        display: none;
+    }
+    .video-box>.video-all7{
+        display: none;
+    }
+     /* ---------------------------------------------------------------------- */
+    .watch-button{
+        width: 160%;
+    }
+    .watch-button>.but1{
+        font-size: 2.5vmax;
+        margin: 3vmax  ;
+        padding: 1vmax 4vmax;
+    }
+    .watch-button>.text1{
+        font-weight: 700;
+    }
+    .secure-image{
+        width: 160%;
+    }
+    .Partner-with-us{
+        width: 160%;
+    }
+    .Partner-with-us>.Partner-with-us1{
+        font-size: 3vmax;
+    }
+    .Partner-with-us>.Partner-with-us1>i{
+        font-size: 3vmax;
+    }
+    .space{
+        width: 160%;
+    }
+    .brandlogo{
+        width: 160%;
+    }
+    .container5{
+        width: 160%;
+        flex-direction: column;
+    }
+    .container5>.left{
+        width: 40%;
+    }
+    
+    .container5>.right{
+        width: 60%;
+        justify-content:start ;
+
+    }
+    .container5>.right>.right-contain>h1{
+        font-size: 4.5vmax;
+    }
+    .container5>.right>.right-contain>p{
+        margin: 1.5vmax 0;
+        font-size: 2vmax;
+    }
+    .container5>.right>.right-contain>h3{
+        font-size: 3vmax;
+        margin-bottom: 0.9vmax;
+    }
+    .container5>.right>.right-contain>.right-contain0{
+        margin: 2vmax 0;
+    }
+    .container5>.right>.right-contain>.right-contain0>.right-contain1>h2{
+        margin: 1.4vmax 0;
+        font-size: 2.8vmax; 
+    }
+    .container5>.right>.right-contain>.right-contain0>.right-contain-arrow>a>i{
+        font-size: 3vmax; 
+    }
+    .container6{
+        width: 160%;
+    }
+    .container6-contain>h1{
+        font-size: 4.5vmax;
+    }
+    .container6-contain>p{
+        font-size: 3vmax;
+    }
+    .container6>.box1{
+        flex-direction: column;
+    }
+
+    .box1>.box-2{
+        width: 65%;
+        border-radius: 2vmax;
+    }
+    .box1>.box-2>p{
+        font-size: 3.2vmax;
+    }
+    .box1>.box-2>h3{
+        font-size: 2.4vmax;
+    }
+    .box1>.box-2>.arrow5>h5{
+        font-size: 2.2vmax;
+    }
+    .box1>.box-2>.arrow5>a>i{
+        font-size: 3.5vmax;
+    }
+    .box1>.box-2>h4{
+        width: 85% ;
+        height: 1vh;
+    }
+    /* ----------------- */
+    .box1>.box-3{
+        width: 65%;
+        border-radius: 2vmax;
+    }
+    .box1>.box-3>p{
+        font-size: 3.2vmax;
+    }
+    .box1>.box-3>h3{
+        font-size: 2.4vmax;
+    }
+    .box1>.box-3>.arrow5>h5{
+        font-size: 2.2vmax;
+    }
+    .box1>.box-3>.arrow5>a>i{
+        font-size: 3.5vmax;
+    }
+    .box1>.box-3>h4{
+        width: 85% ;
+        height: 1vh;
+    }
+    /* --------------------------- */
+    .box1>.box-4{
+        width: 65%;
+        border-radius: 2vmax;
+    }
+    .box1>.box-4>p{
+        font-size: 3.2vmax;
+    }
+    .box1>.box-4>h3{
+        font-size: 2.4vmax;
+    }
+    .box1>.box-4>.arrow5>h5{
+        font-size: 2.2vmax;
+    }
+    .box1>.box-4>.arrow5>a>i{
+        font-size: 3.5vmax;
+    }
+    .box1>.box-4>h4{
+        width: 85% ;
+        height: 1vh;
+    }
+    /* ---------------------------------------------------- */
+    .see-all-news>.see-all-news1{
+        font-size: 3vmax;
+        padding: 1.5vmax 3vmax 1.5vmax 4.5vmax ;
+    }
+    .see-all-news>.see-all-news1>i{
+        margin: 0 2vmax;
+        font-size: 3.5vmax;
+    }
+    .registered-image{
+        width: 160%;
+    }
+    /* ----------------------------------- */
+    .bottom-container{
+        width: 160%;
+    }
+    .bottom-container>nav{
+        padding: 0 2vmax;
+    }
+    .bottom-container>nav>.bottom-image{
+       display: none;
+    }
+    .bottom-container>nav>ul>.bottom-text{
+        font-size: 2.5vmax;
+        margin: 0 5vmax 2.5vmax 0;
+    }
+    .bottom-container>nav>ul>li>.bottomlogo{
+        width: 70%;
+    }
+    .bottom-container>nav>ul>.Download-but>button{
+        font-size: 1.9vmax;
+        padding: 0.5vmax 1vmax;
+        border-radius: 2vmax;
+    }
+    .bottom-container>nav>ul>.media-icon>a>i{
+        font-size: 4.5vmax;
+    }
+    .footer{
+        font-size: 3vmax;
+    }
+
+
+}     
